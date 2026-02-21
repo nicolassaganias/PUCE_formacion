@@ -22,10 +22,12 @@ Los participantes desarrollan prototipos funcionales de dos líneas:
 
 ## Hardware utilizado
 
-- Arduino UNO / Nano
-- Sensores: DS18B20, DHT22, BME280, pH, TDS, turbidez, módulos de sonido y luminosidad
-- Almacenamiento: módulos SD
-- Comunicación: I2C, SPI, OneWire
+- Arduino UNO
+- Sensores: ARQ: AHT10, Micrófono MAX9814, PIR, BH1750 // H2O: Turbidez, TDS, pH, EC, DO, Temp DS18b20
+- Almacenamiento: módulo SD
+- Timestamp: RTC DS3231
+- Visualización: Display LCD 16x2 i2c
+- Comunicación: I2C, SPI, OneWire, A/D
 
 ## Licencia
 
