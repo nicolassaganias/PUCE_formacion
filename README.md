@@ -35,6 +35,6 @@ Los códigos y diseños se comparten bajo licencias open source para fomentar la
 
 ---
 
-**Instructor:** Mgtr. Nicolás Saganias  
+**Instructor:** Nicolás Saganías  
 **Coordinación:** Mgtr. Guillermo Guzmán, Mgs. Moraima Mera  
 **Proyecto:** Innovación docente y Living Lab universitario - Convocatoria de cooperación UdG
