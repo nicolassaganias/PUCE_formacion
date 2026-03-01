@@ -1,0 +1,31 @@
+// digital pin 2 has a pushbutton attached to it. Give it a name:
+int pushButton = 2;
+// digital pin 3 has an LED attached to it:
+int ledPin = 3;
+
+// the setup routine runs once when you press reset:
+void setup() {
+  // initialize serial communication at 9600 bits per second:
+  Serial.begin(9600);
+  // make the pushbutton's pin an input:
+  pinMode(pushButton, INPUT_PULLUP);
+  // make the LED's pin an output:
+  pinMode(ledPin, OUTPUT);
+}
+
+// the loop routine runs over and over again forever:
+void loop() {
+  // read the input pin:
+  int buttonState = digitalRead(pushButton);
+  
+  // if button is pressed (LOW because of INPUT_PULLUP), turn on LED
+  if (buttonState == LOW) {
+    digitalWrite(ledPin, HIGH);  // turn LED on
+  } else {
+    digitalWrite(ledPin, LOW);   // turn LED off
+  }
+  
+  // print out the state of the button:
+  Serial.println(buttonState);
+  delay(1);  // delay in between reads for stability
+}
