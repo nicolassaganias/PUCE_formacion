@@ -19,6 +19,7 @@ Los participantes desarrollan prototipos funcionales de dos líneas:
 | `downloads/` | Instructivos de instalación: Arduino IDE, driver CH340, librerías necesarias |
 | `documentacion/` | Diagramas de conexión, esquemas eléctricos y guías de montaje |
 | `diseño 3d/` | Archivos STL y fuentes para impresión de cajas y soportes de sensores |
+| `libraries/` | Librerías Arduino utilizadas |
 
 ## Hardware utilizado
 
@@ -35,6 +36,6 @@ Los códigos y diseños se comparten bajo licencias open source para fomentar la
 
 ---
 
-**Instructor:** Mgtr. Nicolás Saganias  
+**Instructor:** Nicolás Saganías  
 **Coordinación:** Mgtr. Guillermo Guzmán, Mgs. Moraima Mera  
 **Proyecto:** Innovación docente y Living Lab universitario - Convocatoria de cooperación UdG
